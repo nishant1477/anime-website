@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/search",
+      "destination": "/"
+    },
+    {
+      "source": "/anime/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/watch/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/saved",
+      "destination": "/"
+    }
+  ]
+}

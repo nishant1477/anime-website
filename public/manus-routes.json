@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Animezxo \u2014 Home"
+    },
+    {
+      "path": "/search",
+      "title": "Animezxo \u2014 Search"
+    },
+    {
+      "path": "/saved",
+      "title": "Animezxo \u2014 Saved"
+    },
+    {
+      "path": "/anime/:slug",
+      "title": "Animezxo \u2014 Anime details"
+    },
+    {
+      "path": "/watch/:slug",
+      "title": "Animezxo \u2014 Watch"
+    }
+  ]
+}
