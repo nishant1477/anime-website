@@ -1,5 +1,5 @@
 // Base URL is configurable at build time through VITE_ANIMEX_API_URL.
-export const DEFAULT_API_URL = 'https://ani-koto-api-rho.vercel.app/api';
+export const DEFAULT_API_URL = 'https://animezxo.vercel.app/api';
 const API_BASE = (import.meta.env.VITE_ANIMEX_API_URL || DEFAULT_API_URL).replace(/\/$/, '');
 
 export class ApiError extends Error {
